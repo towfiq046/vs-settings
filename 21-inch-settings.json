@@ -1,0 +1,119 @@
+{
+  "editor.fontSize": 15.5,
+  "editor.formatOnSave": true,
+  "debug.console.fontSize": 14,
+  "terminal.integrated.fontSize": 14.5,
+  "editor.formatOnPaste": true,
+  "editor.insertSpaces": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.wordWrap": "on",
+  "window.zoomLevel": 0,
+  "editor.detectIndentation": true,
+  "editor.tabSize": 4,
+  "editor.letterSpacing": 0.5,
+  "editor.lineHeight": 22,
+  "workbench.editor.showIcons": false,
+  "files.trimTrailingWhitespace": true,
+  // dot dot
+  //"editor.renderWhitespace": "all",
+  "files.exclude": {
+    "somefolder/": true,
+    "somefile": true
+  },
+  "search.exclude": {
+    "someFolder/": true,
+    "somefile": true
+  },
+  // Output panel
+  "[Log]": {
+    "editor.fontSize": 13
+  },
+  "editor.fontLigatures": true,
+  // Icon theme
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.color": "#7cb342",
+  "vsicons.presets.foldersAllDefaultIcon": true,
+  "vsicons.presets.hideFolders": true,
+  // Operator Mono font
+  "editor.fontFamily": "'Operator Mono', 'Fira Code Regular'",
+  // Live server
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // HTML CSS support
+  // "css.remoteStyleSheets": [
+  //   "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  // ],
+  // Live sass compiler
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.showOutputWindow": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    }
+  ],
+  // bracketPairColorizer
+  "bracketPairColorizer.highlightActiveScope": true,
+  "bracketPairColorizer.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}; opacity: 0.5",
+    "backgroundColor : {color}"
+  ],
+  // Prettier
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "left",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#80CBC4",
+    "list.activeSelectionForeground": "#80CBC4",
+    "list.inactiveSelectionForeground": "#80CBC4",
+    "list.highlightForeground": "#80CBC4",
+    "scrollbarSlider.activeBackground": "#80CBC450",
+    "editorSuggestWidget.highlightForeground": "#80CBC4",
+    "textLink.foreground": "#80CBC4",
+    "progressBar.background": "#80CBC4",
+    "pickerGroup.foreground": "#80CBC4",
+    "tab.activeBorder": "#80CBC4",
+    "notificationLink.foreground": "#80CBC4",
+    "editorWidget.resizeBorder": "#80CBC4",
+    "editorWidget.border": "#80CBC4",
+    "settings.modifiedItemIndicator": "#80CBC4",
+    "settings.headerForeground": "#80CBC4",
+    "panelTitle.activeBorder": "#80CBC4",
+    "breadcrumb.activeSelectionForeground": "#80CBC4",
+    "menu.selectionForeground": "#80CBC4",
+    "menubar.selectionForeground": "#80CBC4",
+    "editor.findMatchBorder": "#80CBC4",
+    "selection.background": "#80CBC440"
+  },
+  "materialTheme.accent": "Teal",
+  "workbench.colorTheme": "Dark++ Italic",
+  // Comment style and color change
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#5ba054",
+        }
+      }
+    ]
+  },
+  "markdown.preview.fontSize": 14.5,
+  "files.autoSave": "afterDelay",
+}
