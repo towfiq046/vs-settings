@@ -1,0 +1,72 @@
+{
+    "editor.fontFamily": "'Operator Mono', 'Droid Sans Mono'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    "editor.lineHeight": 24,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "all",    // for line number color.
+    "editor.renderWhitespace": "trailing",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "variable",
+                    "meta.attribute.python",
+                    "meta.function-call.arguments.python",
+                    "meta.function-call.python",
+                ],
+                "settings": {
+                    "foreground": "#c2cee2",
+                }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#f78c6c",
+                }
+            },
+            {
+                "scope": [
+                    "variable.parameter.function.language.special.self.python",
+                    "variable.parameter.function.language.special.cls.python"
+                ],
+                "settings": {
+                    "foreground": "#FF5370",
+                }
+            },
+            {
+                "scope": [
+                    "meta.function.decorator.python",
+                    "entity.name.function.decorator.python",
+                    "meta.function.decorator.python"
+                ],
+                "settings": {
+                    "foreground": "#82AAFF",
+                }
+            },
+        ]
+    },
+    "explorer.decorations.badges": true,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.2,
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "activityBar.border":"#263238",
+        "editorLineNumber.foreground": "#52666b",
+        "editorLineNumber.activeForeground": "#839ca3",
+        "gitDecoration.modifiedResourceForeground":"#77bfba",
+        "gitDecoration.untrackedResourceForeground": "#e36e63",
+        "gitDecoration.ignoredResourceForeground": "#a36446",
+        "list.activeSelectionBackground":"#263238",
+        "list.activeSelectionForeground":"#eaebec",
+        "list.inactiveSelectionBackground": "#252f35",
+        "sideBar.foreground": "#85a8bc",
+        "sideBarSectionHeader.background":"#263238",
+        "tab.activeBackground":"#314549",
+    },
+    "workbench.tree.indent": 18,
+    "workbench.tree.renderIndentGuides": "always",
+}
